@@ -125,5 +125,11 @@ F:\workspaceProjects\Internationals\CatchUp\CatchUp.Droid\obj\Debug\android\asse
 F:\workspaceProjects\Internationals\CatchUp\CatchUp.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 F:\workspaceProjects\Internationals\CatchUp\CatchUp.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 F:\workspaceProjects\Internationals\CatchUp\CatchUp.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+F:\workspaceProjects\Internationals\CatchUp\CatchUp.Droid\obj\Debug\res\layout\notification.xml
+F:\workspaceProjects\Internationals\CatchUp\CatchUp.Droid\obj\Debug\res\layout\home.xml
+F:\workspaceProjects\Internationals\CatchUp\CatchUp.Droid\obj\Debug\res\layout\message.xml
+F:\workspaceProjects\Internationals\CatchUp\CatchUp.Droid\obj\Debug\res\drawable\background.png
+F:\workspaceProjects\Internationals\CatchUp\CatchUp.Droid\obj\Debug\res\drawable\logo.png
+F:\workspaceProjects\Internationals\CatchUp\CatchUp.Droid\obj\Debug\res\layout\contact.xml
 F:\workspaceProjects\Internationals\CatchUp\CatchUp.Droid\obj\Debug\CatchUp.Droid.dll.mdb
 F:\workspaceProjects\Internationals\CatchUp\CatchUp.Droid\bin\Debug\CatchUp.Droid.dll.mdb

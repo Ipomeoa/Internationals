@@ -67,53 +67,59 @@ containing a value of this type.
         public static final int MvxTemplate=0x7f010002;
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
-        public static final int splash=0x7f020001;
+        public static final int background=0x7f020000;
+        public static final int icon=0x7f020001;
+        public static final int logo=0x7f020002;
+        public static final int splash=0x7f020003;
     }
     public static final class id {
         public static final int MvvmCrossTagId=0x7f040000;
         public static final int MvxBindingTagUnique=0x7f040001;
-        public static final int Send=0x7f040018;
-        public static final int button1=0x7f040005;
-        public static final int button2=0x7f040006;
-        public static final int button3=0x7f040014;
-        public static final int checkBox1=0x7f040015;
-        public static final int checkBox2=0x7f040016;
-        public static final int checkBox3=0x7f040017;
+        public static final int Send=0x7f04001a;
+        public static final int button1=0x7f040007;
+        public static final int button2=0x7f040008;
+        public static final int button3=0x7f040009;
+        public static final int checkBox1=0x7f040017;
+        public static final int checkBox2=0x7f040018;
+        public static final int checkBox3=0x7f040019;
         public static final int checkCalendar=0x7f040021;
         public static final int checkLocation=0x7f04001d;
         public static final int content=0x7f04001b;
-        public static final int editText1=0x7f04000a;
-        public static final int editText2=0x7f040010;
-        public static final int editText3=0x7f040013;
-        public static final int gridView1=0x7f040019;
-        public static final int linearLayout1=0x7f040003;
-        public static final int linearLayout2=0x7f04000e;
-        public static final int linearLayout3=0x7f040011;
+        public static final int editText1=0x7f04000e;
+        public static final int editText2=0x7f040013;
+        public static final int editText3=0x7f040016;
+        public static final int imageView1=0x7f040005;
+        public static final int img_button=0x7f040003;
+        public static final int linearLayout1=0x7f040004;
+        public static final int linearLayout2=0x7f040006;
+        public static final int linearLayout3=0x7f040014;
         public static final int requestText=0x7f04001c;
-        public static final int respTitel=0x7f04001a;
         public static final int responseText=0x7f040022;
         public static final int sendResponse=0x7f040023;
         public static final int specLocLayout=0x7f04001e;
         public static final int specLocText=0x7f040020;
         public static final int specLocTitel=0x7f04001f;
-        public static final int switch1=0x7f040007;
-        public static final int switch2=0x7f040008;
+        public static final int switch1=0x7f04000b;
+        public static final int switch2=0x7f04000c;
         public static final int textView1=0x7f040002;
-        public static final int textView2=0x7f040004;
-        public static final int textView3=0x7f040009;
-        public static final int textView4=0x7f04000c;
-        public static final int textView5=0x7f04000d;
-        public static final int textView6=0x7f04000f;
-        public static final int textView7=0x7f040012;
-        public static final int view1=0x7f04000b;
+        public static final int textView2=0x7f04000a;
+        public static final int textView3=0x7f04000d;
+        public static final int textView4=0x7f040010;
+        public static final int textView5=0x7f040011;
+        public static final int textView6=0x7f040012;
+        public static final int textView7=0x7f040015;
+        public static final int view1=0x7f04000f;
     }
     public static final class layout {
-        public static final int firstview=0x7f030000;
-        public static final int options=0x7f030001;
-        public static final int request=0x7f030002;
-        public static final int response=0x7f030003;
-        public static final int splashscreen=0x7f030004;
+        public static final int contact=0x7f030000;
+        public static final int firstview=0x7f030001;
+        public static final int home=0x7f030002;
+        public static final int message=0x7f030003;
+        public static final int notification=0x7f030004;
+        public static final int options=0x7f030005;
+        public static final int request=0x7f030006;
+        public static final int response=0x7f030007;
+        public static final int splashscreen=0x7f030008;
     }
     public static final class string {
         public static final int ApplicationName=0x7f060001;

@@ -88,7 +88,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="SplashScreen.cs" />
+    <Compile Include="Views\ContactView.cs" />
     <Compile Include="Views\FirstView.cs" />
+    <Compile Include="Views\HomeView.cs" />
+    <Compile Include="Views\MessageView.cs" />
+    <Compile Include="Views\NotificationView.cs" />
+    <Compile Include="Views\OptionsView.cs" />
+    <Compile Include="Views\RequestView.cs" />
+    <Compile Include="Views\ResponseView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -100,6 +107,10 @@
     <AndroidResource Include="Resources\layout\Options.axml" />
     <AndroidResource Include="Resources\layout\Response.axml" />
     <AndroidResource Include="Resources\layout\Request.axml" />
+    <AndroidResource Include="Resources\layout\Notification.axml" />
+    <AndroidResource Include="Resources\layout\Contact.axml" />
+    <AndroidResource Include="Resources\layout\Home.axml" />
+    <AndroidResource Include="Resources\layout\Message.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
@@ -120,6 +131,8 @@
   <ItemGroup>
     <AndroidResource Include="Resources\values\SplashStyle.xml" />
     <AndroidResource Include="Resources\drawable\splash.png" />
+    <AndroidResource Include="Resources\drawable\background.png" />
+    <AndroidResource Include="Resources\drawable\logo.png" />
     <Content Include="ToDo-MvvmCross\_ Droid UI.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

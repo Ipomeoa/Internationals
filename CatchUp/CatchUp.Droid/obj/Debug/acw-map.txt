@@ -2,10 +2,38 @@ CatchUp.Droid.SplashScreen, CatchUp.Droid;md531bcb341063be220e3fffdc1f8c40249.Sp
 CatchUp.Droid.SplashScreen, CatchUp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md531bcb341063be220e3fffdc1f8c40249.SplashScreen
 CatchUp.Droid.SplashScreen;md531bcb341063be220e3fffdc1f8c40249.SplashScreen
 catchup.droid.SplashScreen;md531bcb341063be220e3fffdc1f8c40249.SplashScreen
+CatchUp.Droid.Views.ContactView, CatchUp.Droid;md5d3be11a72b2d3766506f207ab673e015.ContactView
+CatchUp.Droid.Views.ContactView, CatchUp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3be11a72b2d3766506f207ab673e015.ContactView
+CatchUp.Droid.Views.ContactView;md5d3be11a72b2d3766506f207ab673e015.ContactView
+catchup.droid.views.ContactView;md5d3be11a72b2d3766506f207ab673e015.ContactView
 CatchUp.Droid.Views.FirstView, CatchUp.Droid;md5d3be11a72b2d3766506f207ab673e015.FirstView
 CatchUp.Droid.Views.FirstView, CatchUp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3be11a72b2d3766506f207ab673e015.FirstView
 CatchUp.Droid.Views.FirstView;md5d3be11a72b2d3766506f207ab673e015.FirstView
 catchup.droid.views.FirstView;md5d3be11a72b2d3766506f207ab673e015.FirstView
+CatchUp.Droid.Views.HomeView, CatchUp.Droid;md5d3be11a72b2d3766506f207ab673e015.HomeView
+CatchUp.Droid.Views.HomeView, CatchUp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3be11a72b2d3766506f207ab673e015.HomeView
+CatchUp.Droid.Views.HomeView;md5d3be11a72b2d3766506f207ab673e015.HomeView
+catchup.droid.views.HomeView;md5d3be11a72b2d3766506f207ab673e015.HomeView
+CatchUp.Droid.Views.MessageView, CatchUp.Droid;md5d3be11a72b2d3766506f207ab673e015.MessageView
+CatchUp.Droid.Views.MessageView, CatchUp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3be11a72b2d3766506f207ab673e015.MessageView
+CatchUp.Droid.Views.MessageView;md5d3be11a72b2d3766506f207ab673e015.MessageView
+catchup.droid.views.MessageView;md5d3be11a72b2d3766506f207ab673e015.MessageView
+CatchUp.Droid.Views.NotificationView, CatchUp.Droid;md5d3be11a72b2d3766506f207ab673e015.NotificationView
+CatchUp.Droid.Views.NotificationView, CatchUp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3be11a72b2d3766506f207ab673e015.NotificationView
+CatchUp.Droid.Views.NotificationView;md5d3be11a72b2d3766506f207ab673e015.NotificationView
+catchup.droid.views.NotificationView;md5d3be11a72b2d3766506f207ab673e015.NotificationView
+CatchUp.Droid.Views.OptionsView, CatchUp.Droid;md5d3be11a72b2d3766506f207ab673e015.OptionsView
+CatchUp.Droid.Views.OptionsView, CatchUp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3be11a72b2d3766506f207ab673e015.OptionsView
+CatchUp.Droid.Views.OptionsView;md5d3be11a72b2d3766506f207ab673e015.OptionsView
+catchup.droid.views.OptionsView;md5d3be11a72b2d3766506f207ab673e015.OptionsView
+CatchUp.Droid.Views.RequestView, CatchUp.Droid;md5d3be11a72b2d3766506f207ab673e015.RequestView
+CatchUp.Droid.Views.RequestView, CatchUp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3be11a72b2d3766506f207ab673e015.RequestView
+CatchUp.Droid.Views.RequestView;md5d3be11a72b2d3766506f207ab673e015.RequestView
+catchup.droid.views.RequestView;md5d3be11a72b2d3766506f207ab673e015.RequestView
+CatchUp.Droid.Views.ResponseView, CatchUp.Droid;md5d3be11a72b2d3766506f207ab673e015.ResponseView
+CatchUp.Droid.Views.ResponseView, CatchUp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3be11a72b2d3766506f207ab673e015.ResponseView
+CatchUp.Droid.Views.ResponseView;md5d3be11a72b2d3766506f207ab673e015.ResponseView
+catchup.droid.views.ResponseView;md5d3be11a72b2d3766506f207ab673e015.ResponseView
 MvvmCross.Binding.Droid.Views.MvxBaseListItemView, MvvmCross.Binding.Droid;md5bf0126c95bf9fc0db24c02c9adb4cfa7.MvxBaseListItemView
 MvvmCross.Binding.Droid.Views.MvxBaseListItemView, MvvmCross.Binding.Droid, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null;md5bf0126c95bf9fc0db24c02c9adb4cfa7.MvxBaseListItemView
 MvvmCross.Binding.Droid.Views.MvxBaseListItemView;md5bf0126c95bf9fc0db24c02c9adb4cfa7.MvxBaseListItemView

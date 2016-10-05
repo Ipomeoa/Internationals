@@ -87,10 +87,16 @@ namespace CatchUp.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int background = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int splash = 2130837505;
+			public const int Icon = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int logo = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int splash = 2130837507;
 			
 			static Drawable()
 			{
@@ -111,26 +117,26 @@ namespace CatchUp.Droid
 			// aapt resource value: 0x7f040001
 			public const int MvxBindingTagUnique = 2130968577;
 			
-			// aapt resource value: 0x7f040018
-			public const int Send = 2130968600;
+			// aapt resource value: 0x7f04001a
+			public const int Send = 2130968602;
 			
-			// aapt resource value: 0x7f040005
-			public const int button1 = 2130968581;
+			// aapt resource value: 0x7f040007
+			public const int button1 = 2130968583;
 			
-			// aapt resource value: 0x7f040006
-			public const int button2 = 2130968582;
+			// aapt resource value: 0x7f040008
+			public const int button2 = 2130968584;
 			
-			// aapt resource value: 0x7f040014
-			public const int button3 = 2130968596;
-			
-			// aapt resource value: 0x7f040015
-			public const int checkBox1 = 2130968597;
-			
-			// aapt resource value: 0x7f040016
-			public const int checkBox2 = 2130968598;
+			// aapt resource value: 0x7f040009
+			public const int button3 = 2130968585;
 			
 			// aapt resource value: 0x7f040017
-			public const int checkBox3 = 2130968599;
+			public const int checkBox1 = 2130968599;
+			
+			// aapt resource value: 0x7f040018
+			public const int checkBox2 = 2130968600;
+			
+			// aapt resource value: 0x7f040019
+			public const int checkBox3 = 2130968601;
 			
 			// aapt resource value: 0x7f040021
 			public const int checkCalendar = 2130968609;
@@ -141,32 +147,32 @@ namespace CatchUp.Droid
 			// aapt resource value: 0x7f04001b
 			public const int content = 2130968603;
 			
-			// aapt resource value: 0x7f04000a
-			public const int editText1 = 2130968586;
-			
-			// aapt resource value: 0x7f040010
-			public const int editText2 = 2130968592;
+			// aapt resource value: 0x7f04000e
+			public const int editText1 = 2130968590;
 			
 			// aapt resource value: 0x7f040013
-			public const int editText3 = 2130968595;
+			public const int editText2 = 2130968595;
 			
-			// aapt resource value: 0x7f040019
-			public const int gridView1 = 2130968601;
+			// aapt resource value: 0x7f040016
+			public const int editText3 = 2130968598;
+			
+			// aapt resource value: 0x7f040005
+			public const int imageView1 = 2130968581;
 			
 			// aapt resource value: 0x7f040003
-			public const int linearLayout1 = 2130968579;
+			public const int img_button = 2130968579;
 			
-			// aapt resource value: 0x7f04000e
-			public const int linearLayout2 = 2130968590;
+			// aapt resource value: 0x7f040004
+			public const int linearLayout1 = 2130968580;
 			
-			// aapt resource value: 0x7f040011
-			public const int linearLayout3 = 2130968593;
+			// aapt resource value: 0x7f040006
+			public const int linearLayout2 = 2130968582;
+			
+			// aapt resource value: 0x7f040014
+			public const int linearLayout3 = 2130968596;
 			
 			// aapt resource value: 0x7f04001c
 			public const int requestText = 2130968604;
-			
-			// aapt resource value: 0x7f04001a
-			public const int respTitel = 2130968602;
 			
 			// aapt resource value: 0x7f040022
 			public const int responseText = 2130968610;
@@ -183,35 +189,35 @@ namespace CatchUp.Droid
 			// aapt resource value: 0x7f04001f
 			public const int specLocTitel = 2130968607;
 			
-			// aapt resource value: 0x7f040007
-			public const int switch1 = 2130968583;
+			// aapt resource value: 0x7f04000b
+			public const int switch1 = 2130968587;
 			
-			// aapt resource value: 0x7f040008
-			public const int switch2 = 2130968584;
+			// aapt resource value: 0x7f04000c
+			public const int switch2 = 2130968588;
 			
 			// aapt resource value: 0x7f040002
 			public const int textView1 = 2130968578;
 			
-			// aapt resource value: 0x7f040004
-			public const int textView2 = 2130968580;
-			
-			// aapt resource value: 0x7f040009
-			public const int textView3 = 2130968585;
-			
-			// aapt resource value: 0x7f04000c
-			public const int textView4 = 2130968588;
+			// aapt resource value: 0x7f04000a
+			public const int textView2 = 2130968586;
 			
 			// aapt resource value: 0x7f04000d
-			public const int textView5 = 2130968589;
+			public const int textView3 = 2130968589;
 			
-			// aapt resource value: 0x7f04000f
-			public const int textView6 = 2130968591;
+			// aapt resource value: 0x7f040010
+			public const int textView4 = 2130968592;
+			
+			// aapt resource value: 0x7f040011
+			public const int textView5 = 2130968593;
 			
 			// aapt resource value: 0x7f040012
-			public const int textView7 = 2130968594;
+			public const int textView6 = 2130968594;
 			
-			// aapt resource value: 0x7f04000b
-			public const int view1 = 2130968587;
+			// aapt resource value: 0x7f040015
+			public const int textView7 = 2130968597;
+			
+			// aapt resource value: 0x7f04000f
+			public const int view1 = 2130968591;
 			
 			static Id()
 			{
@@ -227,19 +233,31 @@ namespace CatchUp.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int FirstView = 2130903040;
+			public const int Contact = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Options = 2130903041;
+			public const int FirstView = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Request = 2130903042;
+			public const int Home = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Response = 2130903043;
+			public const int Message = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int SplashScreen = 2130903044;
+			public const int Notification = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Options = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int Request = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int Response = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int SplashScreen = 2130903048;
 			
 			static Layout()
 			{
