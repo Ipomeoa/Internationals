@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatchUp.Core", "CatchUp.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatchUp.Droid", "CatchUp.Droid\CatchUp.Droid.csproj", "{3E0F957B-AC78-4A07-BC4A-1D9B23C2EEFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatchUpIAB330Service", "..\..\Desktop\CatchUpIAB330\CatchUpIAB330Service\CatchUpIAB330Service.csproj", "{209FA716-A7AD-4095-BD70-C8710FC66FA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{3E0F957B-AC78-4A07-BC4A-1D9B23C2EEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E0F957B-AC78-4A07-BC4A-1D9B23C2EEFC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3E0F957B-AC78-4A07-BC4A-1D9B23C2EEFC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
