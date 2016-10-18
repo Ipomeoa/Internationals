@@ -14,7 +14,7 @@ namespace CatchUp.Core.Models
 		public string LastName { get; set; }
 
 		//Key = Email
-		public string Key { get; set; }
+		public string Email { get; set; }
 
 	}
 }

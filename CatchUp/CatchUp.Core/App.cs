@@ -11,7 +11,9 @@ namespace CatchUp.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
+
             RegisterAppStart<ViewModels.HomeViewModel>();
+
         }
     }
 }

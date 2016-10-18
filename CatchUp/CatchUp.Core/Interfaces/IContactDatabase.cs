@@ -29,7 +29,7 @@ namespace CatchUp.Core.Interfaces
 		Task<bool> CreateContact(string firstName, string lastName, string email);
 
 		//Add contact to personal contactList, return if all went ok
-		Task<bool> AddContact(string email);
+		Task<bool> AddContact(Contact contact);
 
 		//****Message system for contact requests.**** 
 

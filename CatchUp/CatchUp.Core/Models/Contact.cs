@@ -6,10 +6,10 @@ namespace CatchUp.Core.Models
 		public Contact()
 		{
 		}
-		public Contact(string firstName, string lasName, string email)
+		public Contact(string firstName, string lastName, string email)
 		{
 			FirstName = firstName;
-			LastName = lasName;
+			LastName = lastName;
 			Email = email;
 		}
 

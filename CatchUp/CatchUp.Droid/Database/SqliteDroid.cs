@@ -13,10 +13,14 @@ namespace CatchUp.Droid.Database
 		public SQLiteConnection GetConnection()
 		{
 			// Specify Documents folder 
-			var sqliteFilename = "ContactSQLite.db3";
+			//var sqliteFilename = "ContactSQLite.db3";
+			var sqliteFilename = "UserStorageSQLite.db3";
 			string documentsPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
 			var path = Path.Combine(documentsPath, sqliteFilename);
-
+			if (!File.Exists(path))
+			{
+				File.Create(path).Dispose();
+			}
 			// Create the connection
 			var conn = new SQLiteConnection(new SQLite.Net.Platform.XamarinAndroid.SQLitePlatformAndroid(), path);
 

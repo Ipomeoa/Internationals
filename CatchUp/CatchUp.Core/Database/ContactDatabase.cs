@@ -20,51 +20,80 @@ namespace CatchUp.Core.Database
 			database.CreateTable<Contact>();
 		}
 
-		public async Task<bool> AddContact(string email)
+		public async Task<bool> AddContact(Contact contact)
 		{
-			throw new NotImplementedException();
+			 database.Insert(contact);
+			database.Commit();
+			//Check that the contact's added. 
+			if (CheckIfExists(contact.Email).Result)
+			{
+				return true;
+			}
+			return false;
 		}
 
 		public async Task<bool> CheckIfExists(string email)
 		{
-			throw new NotImplementedException();
+			return database.Table<Contact>().Any(x => x.Email == email);
 		}
 
 		public async Task<bool> CreateContact(string firstName, string lastName, string email)
 		{
-			throw new NotImplementedException();
+			Contact contact = new Contact(firstName, lastName, email);
+			database.Insert(contact);
+			database.Commit();
+
+			//Check that the contact's created. 
+			if (CheckIfExists(email).Result)
+			{
+				return true;
+			}
+			return false;
 		}
 
 		public async Task<bool> DeleteContact(string email)
 		{
-			throw new NotImplementedException();
+			database.Delete<Contact>(email);
+			database.Commit();
+			//Check if the contact's deleted. 
+			if ( !CheckIfExists(email).Result)
+			{
+				return true;
+			}
+			return false;
 		}
 
 		public async Task<IEnumerable<Contact>> GetAllContacts()
 		{
-			throw new NotImplementedException();
+			return database.Table<Contact>().ToList();
 		}
 
 		public async Task<Contact> GetContact(string email)
 		{
-			throw new NotImplementedException();
+			return database.Get<Contact>(email);
+		}
+
+		public async Task<IEnumerable<Contact>> SearchContacts(string email)
+		{
+			return null; //database.Table<Contact>().
 		}
 
 
 
-		public async MobileServiceClient GetMobileServiceClient()
+		public async Task<IQueryable<Contact>> GetPersonalContacts(string email)
+		{
+
+			return (System.Linq.IQueryable<CatchUp.Core.Models.Contact>)database.Query<Contact>
+				                      ("SELECT Email FROM [Contact] WHERE [Email] LIKE " + email);
+
+		
+
+		}
+
+		Task<IEnumerable<Contact>> IContactDatabase.GetPersonalContacts(string email)
 		{
 			throw new NotImplementedException();
 		}
-
-		public async Task<IEnumerable<Contact>> GetPersonalContacts(string email)
-		{
-			throw new NotImplementedException();
-		}
-
-
-
-
 	}
 }
 
