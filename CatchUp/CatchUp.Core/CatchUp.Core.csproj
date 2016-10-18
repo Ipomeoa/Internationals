@@ -65,6 +65,9 @@
     <Compile Include="Database\UserStorageDatabase.cs" />
     <Compile Include="Interfaces\IUserStorageDatabase.cs" />
     <Compile Include="Models\UserStorage.cs" />
+    <Compile Include="Models\LocalContact.cs" />
+    <Compile Include="Database\LocalContactDatabase.cs" />
+    <Compile Include="Interfaces\ILocalContactDatabase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

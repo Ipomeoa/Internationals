@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace CatchUp.Core.Interfaces
@@ -26,8 +27,8 @@ namespace CatchUp.Core.Interfaces
 		Task<bool> UpdateMode(bool mode);
 		Task<bool> UserExists();
 
-		//Return bool to indicate success, Creates a user and saves to local storage.
-		Task<int> CreateUser(string email, string firstname, string lastname); 
+		//Return int id to indicate success, Creates a user and saves to local storage.
+		Task<int> CreateUser(string email, string firstname, string lastname);
 
 	}
 }

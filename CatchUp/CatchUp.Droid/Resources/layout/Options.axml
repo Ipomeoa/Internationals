@@ -119,7 +119,6 @@
                 android:id="@+id/editText1"
                 android:background="#19ffffff"
                 android:textColor="#ffeae6e6"
-                android:text="Input text"
                 android:textSize="16dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="3dp"
@@ -128,7 +127,7 @@
                 android:minHeight="80dp"
                 android:ellipsize="none"
                 android:gravity="top"
-                local:MvxBind="Text Action, Mode=OneWay" />
+                local:MvxBind="Text AutoMsg, Mode=TwoWay" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -185,13 +184,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:id="@+id/editText2"
-                    android:text="John"
                     android:textColor="#ffeae6e6"
                     android:textSize="16dp"
                     android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
                     android:padding="4dp"
-                    local:MvxBind="Text Firstname, Mode=OneWayToSource"
+                    local:MvxBind="Text Firstname, Mode=TwoWay"
                     android:background="#19ffffff" />
             </LinearLayout>
             <LinearLayout
@@ -222,14 +220,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:id="@+id/editText3"
-                    android:text="Doe"
                     android:textColor="#ffeae6e6"
                     android:textSize="16dp"
                     android:background="#19ffffff"
                     android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
                     android:padding="4dp"
-                    local:MvxBind="Text Lastname, Mode=OneWayToSource" />
+                    local:MvxBind="Text Lastname, Mode=TwoWay" />
             </LinearLayout>
             <Button
                 android:text="Save"

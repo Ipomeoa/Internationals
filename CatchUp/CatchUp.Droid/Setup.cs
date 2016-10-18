@@ -32,6 +32,7 @@ namespace CatchUp.Droid
 			//Mvx.LazyConstructAndRegisterSingleton<IAzureDatabase, AzureDatabase>();
 
 			Mvx.LazyConstructAndRegisterSingleton<IUserStorageDatabase, UserStorageDatabase>();
+			Mvx.LazyConstructAndRegisterSingleton<ILocalContactDatabase, LocalContactDatabase>();
 			//uncomment the below if you only want to use local storage
 			//Mvx.LazyConstructAndRegisterSingleton<IContactDatabase, ContactDatabase>();
 			base.InitializeFirstChance();

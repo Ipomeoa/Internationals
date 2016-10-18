@@ -26,6 +26,8 @@ namespace CatchUp.Core
 		public bool Sound { get; set; }
 		public bool Mode { get; set;}
 
+
+
 		                    
 	}
 }
