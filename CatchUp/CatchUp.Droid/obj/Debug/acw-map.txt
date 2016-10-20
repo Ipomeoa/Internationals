@@ -38,10 +38,6 @@ CatchUp.Droid.Views.AddContactView, CatchUp.Droid;md5d3be11a72b2d3766506f207ab67
 CatchUp.Droid.Views.AddContactView, CatchUp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3be11a72b2d3766506f207ab673e015.AddContactView
 CatchUp.Droid.Views.AddContactView;md5d3be11a72b2d3766506f207ab673e015.AddContactView
 catchup.droid.views.AddContactView;md5d3be11a72b2d3766506f207ab673e015.AddContactView
-CatchUp.Droid.Views.LoginView, CatchUp.Droid;md5d3be11a72b2d3766506f207ab673e015.LoginView
-CatchUp.Droid.Views.LoginView, CatchUp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3be11a72b2d3766506f207ab673e015.LoginView
-CatchUp.Droid.Views.LoginView;md5d3be11a72b2d3766506f207ab673e015.LoginView
-catchup.droid.views.LoginView;md5d3be11a72b2d3766506f207ab673e015.LoginView
 CatchUp.Droid.Views.CreateUserView, CatchUp.Droid;md5d3be11a72b2d3766506f207ab673e015.CreateUserView
 CatchUp.Droid.Views.CreateUserView, CatchUp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3be11a72b2d3766506f207ab673e015.CreateUserView
 CatchUp.Droid.Views.CreateUserView;md5d3be11a72b2d3766506f207ab673e015.CreateUserView

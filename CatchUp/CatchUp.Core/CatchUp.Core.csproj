@@ -59,8 +59,6 @@
     <Compile Include="Services\CatchUpIAB330Service.cs" />
     <Compile Include="Services\CatchUpIAB330App.cs" />
     <Compile Include="ViewModels\CreateUserViewModel.cs" />
-    <Compile Include="ViewModels\LoginViewModel.cs" />
-    <Compile Include="LocalVariables\LocalVars.cs" />
     <Compile Include="Database\TodoItemDatabase.cs" />
     <Compile Include="Database\UserStorageDatabase.cs" />
     <Compile Include="Interfaces\IUserStorageDatabase.cs" />
@@ -108,7 +106,6 @@
     <Folder Include="Interfaces\" />
     <Folder Include="Database\" />
     <Folder Include="Services\" />
-    <Folder Include="LocalVariables\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

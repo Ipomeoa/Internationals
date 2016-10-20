@@ -126,7 +126,6 @@
     <Compile Include="Database\AzureDatabase.cs" />
     <Compile Include="Database\SqliteDroid.cs" />
     <Compile Include="Views\AddContactView.cs" />
-    <Compile Include="Views\LoginView.cs" />
     <Compile Include="Views\CreateUserView.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -146,8 +145,10 @@
     <AndroidResource Include="Resources\layout\Home.axml" />
     <AndroidResource Include="Resources\drawable\background.png" />
     <AndroidResource Include="Resources\layout\AddContact.axml" />
-    <AndroidResource Include="Resources\layout\Login.axml" />
     <AndroidResource Include="Resources\layout\CreateUser.axml" />
+    <AndroidResource Include="Resources\layout\contactitem.axml" />
+    <AndroidResource Include="Resources\layout\contactrequestitem.axml" />
+    <AndroidResource Include="Resources\layout\Test.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />

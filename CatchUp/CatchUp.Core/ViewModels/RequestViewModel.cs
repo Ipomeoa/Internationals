@@ -1,5 +1,7 @@
 ﻿using MvvmCross.Core.ViewModels;
 using System.Windows.Input;
+using CatchUp.Core.Models;
+using System.Diagnostics;
 
 // Author: Andreas Andersson n9795383, Marie-Luise Lux n9530801, Samuel Blight n8312885
 
@@ -29,7 +31,21 @@ namespace CatchUp.Core.ViewModels
 		//End of Samuel's Code
 		public RequestViewModel()
 		{
+			//Samuel's Codee
+			BtnSendReqCommand = new MvxCommand(() =>
+			{
+				SendReqText = "Message Sent!";
+			});
+			//End of Samuel's Code
+		}
 
+		public RequestViewModel(LocalContact contact)
+		{
+			//Use the contact.
+			if (contact != null)
+			{
+				Debug.WriteLine("Contact-Email:" + contact.EmailContact);
+			}
 			//Samuel's Codee
 			BtnSendReqCommand = new MvxCommand(() =>
 			{

@@ -23,7 +23,7 @@ namespace CatchUp.Core.Database
 		}
 		public async Task<LocalContact> GetLocalContact(string email)
 		{
-			var query = database.Table<LocalContact>().Where(c => c.Email == email).SingleOrDefault();
+			var query = database.Table<LocalContact>().Where(c => c.EmailContact == email).SingleOrDefault();
 			return database.Get<LocalContact>(query);
 
 		}
@@ -52,10 +52,10 @@ namespace CatchUp.Core.Database
 
 		public async Task<bool> DeleteLocalContact(string email)
 		{
-			var delete = database.Table<LocalContact>().Where(c => c.Email == email).SingleOrDefault();
+			var delete = database.Table<LocalContact>().Where(c => c.EmailContact == email).SingleOrDefault();
 			database.Delete(delete);
 
-			var control = database.Table<LocalContact>().Where(c => c.Email == email).SingleOrDefault();
+			var control = database.Table<LocalContact>().Where(c => c.EmailContact == email).SingleOrDefault();
 			return control == null;
 		}
 
